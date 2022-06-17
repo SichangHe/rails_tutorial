@@ -1,0 +1,13 @@
+class ArticlesController < ApplicationController
+  def index: () -> void
+
+  def show: () -> void
+
+  def new: () -> void
+
+  def create: () -> void
+
+  private
+
+  def article_params: () -> void
+end
