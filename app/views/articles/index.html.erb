@@ -1,4 +1,9 @@
 <h1>Articles</h1>
+<p>
+  <em>
+    <%= Article.public_count%> public articles available
+  </em>
+</p>
 <ul>
   <% @articles.each do |article| %>
     <% unless article.archived? %>
