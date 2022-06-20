@@ -1,8 +1,10 @@
-<p>
-  <em>
-    <%= comment.commenter %>:
-  </em>
-</p>
-<p>
-  <%= comment.body %>
-</p>
+<% if comment.commenter %>
+  <p>
+    <em>
+      <%= comment.commenter %>:
+    </em>
+  </p>
+  <p>
+    <%= comment.body %>
+  </p>
+<% end %>
